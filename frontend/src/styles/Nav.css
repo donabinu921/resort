@@ -1,0 +1,44 @@
+.nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: absolute;
+    top: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.option1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hamburger-icon, .selected-menu {
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.option3{
+    border-left: 1px solid rgba(255, 255, 255, 1);
+    padding-left: 1rem;
+}

@@ -11,7 +11,7 @@ const About1 = () => {
         <div className='about1-text'>
                 <h1 className='about1-title'>MODERN <br/>YET AFFORDABLE</h1>
                 <p className='about1-description'>
-                Experience nature, from the comfort of our cottage. <br />
+                Experience nature, from the comfort of our cottage. <br /><br />
                 Kaduvakanam mountain view cottages offer you a unique holiday experience 
                 with the best service & modern facilities, that too at affordable rates. 
                 Vagamon has a number of unexplored and inspiring spots and it’s rated as 

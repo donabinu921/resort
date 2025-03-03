@@ -11,7 +11,7 @@ const Carousel = ({ slides }) => {
   };
 
   return (
-    <section className="carousel">
+    <section className={`carousel`}>
       <div className="carousel-slide">{slides[activeIndex]}</div>
 
     <IoIosArrowRoundForward className="next" onClick={nextSlide} />

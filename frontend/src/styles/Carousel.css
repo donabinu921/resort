@@ -54,4 +54,8 @@
 .dot.active {
     background-color: white;
 }
-  
+
+.image-carousel {
+    width: 80px; /* Adjust width */
+    height: 60px; /* Adjust height */
+}

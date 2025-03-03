@@ -1,11 +1,9 @@
 import React from 'react'
 import '../styles/Home.css'
-import Nav from '../components/Nav'
 
 const Home = () => {
   return (
-    <div className='home' id='home'>
-        <Nav />
+    <section className='home' id='home'>
         <div className='home-title'>
             <h1>KADUVAKANAM COTTAGES</h1>
             <h1>VAGAMON</h1>
@@ -16,7 +14,7 @@ const Home = () => {
             tea plantations with awesome mountain views, this is an ideal place to relax and loosen 
             up from the distractions of daily busy life.
         </p>
-    </div>
+    </section>
   )
 }
 

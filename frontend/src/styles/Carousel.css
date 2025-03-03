@@ -1,0 +1,57 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  
+.carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+  
+.next {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    cursor: pointer;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 60px;
+    height: auto;
+    margin-right: 5%;
+}
+
+.next:hover{
+    transform: scale(1.1);
+    transition: 200ms ease-in-out;
+}
+  
+.dots {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+}
+  
+.dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: transparent;
+}
+  
+.dot.active {
+    background-color: white;
+}
+  
